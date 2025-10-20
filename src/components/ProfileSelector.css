@@ -1,0 +1,73 @@
+.profile-panel {
+  flex: 0 0 280px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 18px 40px rgba(19, 59, 92, 0.08);
+  display: grid;
+  gap: 16px;
+  height: fit-content;
+}
+
+.profile-heading {
+  font-size: 1.3rem;
+  color: #133b5c;
+}
+
+.profile-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.profile-card {
+  border: 2px solid transparent;
+  border-radius: 14px;
+  padding: 12px;
+  text-align: left;
+  background: #f2f7fb;
+  color: #0b2545;
+  cursor: pointer;
+  transition: border 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(19, 59, 92, 0.08);
+}
+
+.profile-card.active {
+  border-color: #1f6f8b;
+  background: #e8f4f8;
+}
+
+.profile-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.profile-grade {
+  font-size: 0.95rem;
+  color: #1f6f8b;
+  display: block;
+}
+
+.profile-motto {
+  font-size: 0.85rem;
+  margin-top: 6px;
+  display: block;
+}
+
+.profile-tags {
+  display: block;
+  font-size: 0.75rem;
+  color: #6c7a89;
+  margin-top: 8px;
+}
+
+@media (max-width: 959px) {
+  .profile-panel {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.feedback-banner {
+  padding: 14px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.feedback-banner.positive {
+  background: #e8f9ed;
+  color: #1d8a4d;
+}
+
+.feedback-banner.coaching {
+  background: #fff4e3;
+  color: #c25716;
+}

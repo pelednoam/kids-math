@@ -1,0 +1,133 @@
+.problem-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px 28px;
+  box-shadow: 0 20px 45px rgba(12, 37, 69, 0.16);
+  display: grid;
+  gap: 18px;
+}
+
+.problem-header h2 {
+  font-size: 1.6rem;
+  color: #1f6f8b;
+}
+
+.problem-tag {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: #33a1fd;
+  font-weight: 700;
+}
+
+.problem-difficulty {
+  font-size: 0.85rem;
+  color: #5c6f82;
+}
+
+.problem-body {
+  display: grid;
+  gap: 16px;
+}
+
+.problem-narrative {
+  font-size: 1.05rem;
+}
+
+.problem-prompt {
+  font-weight: 600;
+  color: #133b5c;
+}
+
+.problem-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.problem-choice-wrapper {
+  display: grid;
+  gap: 12px;
+}
+
+.choice-chip {
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  background: #e8f4f8;
+  color: #0b2545;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.choice-chip:hover {
+  transform: translateY(-1px);
+  background: #d4ecf4;
+}
+
+.problem-form {
+  display: grid;
+  gap: 10px;
+}
+
+.problem-label {
+  font-size: 0.85rem;
+  color: #5c6f82;
+}
+
+.problem-input {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 2px solid #d7e3f0;
+  font-size: 1.05rem;
+}
+
+.problem-input:focus {
+  outline: none;
+  border-color: #1f6f8b;
+  box-shadow: 0 0 0 4px rgba(31, 111, 139, 0.15);
+}
+
+.problem-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #1f6f8b, #33a1fd);
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background: transparent;
+  color: #1f6f8b;
+  border: 2px solid #1f6f8b;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.skip-inline {
+  justify-self: start;
+  padding: 8px 16px;
+}
+
+.problem-footer {
+  background: #f4fbff;
+  border-radius: 16px;
+  padding: 14px 18px;
+  display: grid;
+  gap: 10px;
+}
+
+.problem-support,
+.problem-fact {
+  font-size: 0.9rem;
+  color: #0b2545;
+}

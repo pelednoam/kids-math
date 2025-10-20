@@ -1,0 +1,28 @@
+.dashboard-shell {
+  display: grid;
+  gap: 20px;
+  flex: 1;
+}
+
+.dashboard-main {
+  display: grid;
+  gap: 20px;
+}
+
+.dashboard-bottom {
+  display: grid;
+  gap: 20px;
+}
+
+.dashboard-history {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow: 0 14px 32px rgba(31, 111, 139, 0.12);
+}
+
+@media (min-width: 960px) {
+  .dashboard-shell {
+    grid-template-columns: 1fr 320px;
+  }
+}

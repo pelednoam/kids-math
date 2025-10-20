@@ -1,0 +1,78 @@
+.history-list {
+  display: grid;
+  gap: 12px;
+}
+
+.history-list h3 {
+  color: #133b5c;
+  font-size: 1.1rem;
+}
+
+.history-list ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.history-list li {
+  background: #f6fbff;
+  border-radius: 14px;
+  padding: 12px 14px;
+  border: 1px solid transparent;
+}
+
+.history-list li.correct {
+  border-color: #8fd3fe;
+}
+
+.history-list li.missed {
+  border-color: #ffd6c2;
+}
+
+.history-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.history-tag {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  color: #1f6f8b;
+  font-weight: 700;
+}
+
+.history-title {
+  font-weight: 600;
+  color: #0b2545;
+}
+
+.history-outcome {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #5c6f82;
+}
+
+.history-text {
+  display: grid;
+  gap: 4px;
+}
+
+.history-correct {
+  font-size: 0.8rem;
+  color: #1f6f8b;
+}
+
+.history-time {
+  font-family: "Roboto Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+.history-empty {
+  background: #f4fbff;
+  border-radius: 16px;
+  padding: 20px;
+  color: #5c6f82;
+  text-align: center;
+}
