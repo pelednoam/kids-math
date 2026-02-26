@@ -2,6 +2,7 @@ import { useState } from "react";
 import { defaultProfiles } from "./data/profiles";
 import { ProfileSelector } from "./components/ProfileSelector";
 import { LearningDashboard } from "./components/LearningDashboard";
+import { UpdateChecker } from "./components/UpdateChecker";
 import type { LearnerProfile } from "./types";
 import "./styles/app.css";
 
@@ -17,6 +18,7 @@ function App() {
         <p className="app-tagline">
           Personalized practice for Cambridge MA 3rd &amp; 5th graders.
         </p>
+        <UpdateChecker />
       </header>
       <main className="app-main">
         <ProfileSelector
